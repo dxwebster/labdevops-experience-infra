@@ -8,9 +8,9 @@ terraform {
 }
 
 # Configura o Provider Google Cloud com o Projeto
-provider "google" {
 
-  project = "liquid-force-361417"
+provider "google" {
+  project = "lab-devops-cloud-xp"
   region  = "us-west4"
   zone    = "us-west4-b"
 }
