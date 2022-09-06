@@ -4,7 +4,7 @@ resource "google_app_engine_application" "app" {
 }
 
 resource "google_artifact_registry_repository" "my-repo" {
-  location = "us-west4"
+  location = "us-west4-b"
   repository_id = "labdevops"
   description = "Imagens Docker"
   format = "DOCKER"
